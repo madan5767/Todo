@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\todos;
+use App\Models\todos; // using the todos model for database operations.
 
 class todosController extends Controller
 {
